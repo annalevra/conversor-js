@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+body{
+font-family: 'Roboto', sans-serif;
+background: linear-gradient(to bottom, #e66465, #9198e5);
+margin: 0;
+padding: 0;
+display: flex; /*permite a UI seja responsiva, flexivel */
+flex-direction: column; /*Um elemento abiaxo do outro */
+justify-content: center; 
+align-items: center;
+min-height: 100vh; /*altura minima */
+}
+
+form{
+    background-color: rgba(197, 197, 238, 0.8);
+    padding: 16px;
+    border-radius: 16px;
+    width: 30%; /* largura*/
+    box-shadow: 0 4px rgb(0, 0, 0, 0.8); /* cria sombra */
+}
+
+h1{
+    color: aliceblue;
+}
+
+input, select {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+}
